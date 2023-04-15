@@ -8,6 +8,7 @@ public sealed class ListingRequest
     // Body que vai conter a lista de produtos
     public string? RequestBody { get; set; }
 
+    // Dados para retorno (deveria estar em um Dto)
     // Retorna para o cliente ao realizar o request
     public string? EstimatedCompletionTime { get; set; }
     public string? RequestStatus { get; set; }
